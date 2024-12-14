@@ -24,7 +24,7 @@ jobs:
 
       - name: Print information
         run: |
-          echo "DO: ${{ env.FULL_NAME }}"
+          echo "DO: ${{ env. FULL_NAME }}"
           echo "Номер группы: ${{ env.GROUP_NUMBER }}"
           echo "Ник на Github: ${{ github.actor }}"
         
