@@ -24,7 +24,7 @@ jobs:
 
       - name: Print information
         run: |
-          echo "DO: ${{ env. FULL_NAME }}"
+          echo "DO: ${{ env.FULL_NAME }}"
           echo "Номер группы: ${{ env.GROUP_NUMBER }}"
           echo "Ник на Github: ${{ github.actor }}"
         
@@ -35,7 +35,7 @@ jobs:
 
       - name: Run unit tests
         run: |
-          python -m unittest discover -s /home/runner/work/geometric_lib/geometric_lib/tests
+          python -m unittest discover -s tests
       
       - name: Lint code with flake8
         run: |
