@@ -24,14 +24,14 @@ jobs:
 
       - name: Print information
         run: |
-          echo "DO: ${{ env. FULL_NAME }}"
+          echo "DO: ${{ env.FULL_NAME }}"
           echo "Номер группы: ${{ env.GROUP_NUMBER }}"
           echo "Ник на Github: ${{ github.actor }}"
         
       - name: Set up Python 3.13
         uses: actions/setup-python@v4 
         with:
-          python-version: '3.13'
+          python-version: 3.13
 
       - name: Run unit tests
         run: |
