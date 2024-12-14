@@ -33,7 +33,7 @@ jobs:
           python-version: '3.13'
       - name: Run unit tests
         run: |
-          python -m unittest discover -s /Users/maksim/Desktop/123/Lab_2/geometric_lib/tests
+          python -m unittest discover -s /home/runner/work/geometric_lib/geometric_lib/tests
       - name: Lint code with flake8
         run: |
           pip install flake8
