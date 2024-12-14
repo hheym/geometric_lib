@@ -7,9 +7,9 @@ on:
       - release
   pull_request: 
     branches:
-    - master
-    - release
-    - develop
+      - master
+      - release
+      - develop
 
 jobs: 
   test:
@@ -31,7 +31,7 @@ jobs:
       - name: Set up Python 3.13
         uses: actions/setup-python@v4 
         with:
-          python-version: '3.13'
+          python-version: 3.13
 
       - name: Run unit tests
         run: |
