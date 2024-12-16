@@ -5,3 +5,4 @@ def area(a, b, c):
 
 def perimeter(a, b, c):
     return a + b + c
+

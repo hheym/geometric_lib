@@ -62,3 +62,4 @@ if __name__ == "main":
         ).split(' ')))
 
     calc(fig, func, size)
+    
