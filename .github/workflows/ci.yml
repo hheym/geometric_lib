@@ -5,12 +5,20 @@ on:
     branches:
       - master
       - release
+      - master
+      - release
+      - feat/tests
+      - develop
+      - main
+      - new_lab2_branch
   pull_request: 
     branches:
       - master
       - release
       - feat/tests
       - develop
+      - main
+      - new_lab2_branch
 
 jobs: 
   test:
